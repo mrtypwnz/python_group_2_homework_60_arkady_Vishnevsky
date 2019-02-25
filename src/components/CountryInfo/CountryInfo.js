@@ -38,7 +38,6 @@ class CountryInfo extends Component {
                     <p className='detailedinfo'>Code: {this.state.loadedCountry.alpha3Code}</p>
                     <p className='detailedinfo'>Area: {this.state.loadedCountry.area}</p>
                     <p className='detailedinfo'>Numeric code: {this.state.loadedCountry.numericCode}</p>
-                    {/*<p className='detailedinfo'>Languages: {this.state.loadedCountry.languages}</p>*/}
                     <p className='detailedinfo'>Region: {this.state.loadedCountry.region}</p>
                     <p className='detailedinfo'>TimeZone: {this.state.loadedCountry.timezones}</p>
                     <p className='detailedinfo'>Domain: MySiteExample{this.state.loadedCountry.topLevelDomain}</p>
